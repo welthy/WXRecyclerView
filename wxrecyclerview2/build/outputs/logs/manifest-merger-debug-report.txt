@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml:1:1-2:54
+INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml:1:1-2:54
+INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml:1:1-2:54
+INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml:1:1-2:54
+INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml:1:1-2:54
+INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml:1:1-2:54
+INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml:1:1-2:54
+	package
+		ADDED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml:2:5-51
+		INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+		INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+		ADDED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml:1:1-2:54
+		INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+		ADDED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml:1:1-2:54
+		INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+		ADDED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+		INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+		ADDED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
+		INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview2\src\main\AndroidManifest.xml
