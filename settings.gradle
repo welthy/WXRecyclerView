@@ -1,1 +1,1 @@
-include ':app', ':wxrecyclerview2'
+include ':app', ':wxrecyclerview'
