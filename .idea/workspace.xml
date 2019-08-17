@@ -5,17 +5,13 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ba3bdfb9-a271-4f31-a438-11255f32ec6e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxrecyclerview/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/wxrecyclerview/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview2/WXRecyclerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview2/WXRecyclerView.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +64,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview2/WXRecyclerView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,10 +116,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/wxrecyclerview/wx/cn/wxrecylerview/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/wxrecyclerview/wx/cn/wxrecylerview/WXRecyclerViewDemo.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/wx_recyclerview_demo.xml" />
-        <option value="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview2/WXRecyclerView.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/wxrecyclerview/build.gradle" />
+        <option value="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview2/WXRecyclerView.java" />
       </list>
     </option>
   </component>
@@ -131,6 +141,28 @@
       <pane id="AndroidView">
         <subPane>
           <expand>
+            <path>
+              <item name="WXRecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="wxrecyclerview" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="WXRecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="wxrecyclerview" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="WXRecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="wxrecyclerview" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="wxrecyclerview2" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WXRecyclerView" type="1abcf292:AndroidViewProjectNode" />
+              <item name="wxrecyclerview" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="wxrecyclerview2" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="WXRecyclerView" type="1a9f42e2:ClassTreeNode" />
+            </path>
             <path>
               <item name="WXRecyclerView" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
@@ -293,6 +325,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18649517" />
       <window_info id="Build Variants" order="1" side_tool="true" />
@@ -304,7 +337,7 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -312,11 +345,11 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49785638" weight="0.32705882" />
       <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021436" side_tool="true" weight="0.32830626" />
-      <window_info anchor="bottom" id="Logcat" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.33058822" />
+      <window_info anchor="bottom" id="Logcat" order="12" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.33058822" />
       <window_info anchor="right" id="Preview" order="0" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -324,7 +357,7 @@
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Gradle" order="7" visible="true" weight="0.24866024" />
+      <window_info anchor="right" id="Gradle" order="7" visible="true" weight="0.20525187" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Structure" order="9" weight="0.16237941" />
       <window_info anchor="right" id="Assistant" order="10" />
@@ -370,18 +403,6 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview2/WXRecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -417,6 +438,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview2/WXRecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

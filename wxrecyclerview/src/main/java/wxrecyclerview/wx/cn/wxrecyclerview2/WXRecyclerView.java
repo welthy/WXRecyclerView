@@ -24,4 +24,8 @@ public class WXRecyclerView extends RecyclerView {
     private void init(Context context){
 
     }
+
+    public void layout(){
+
+    }
 }
