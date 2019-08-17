@@ -4,38 +4,38 @@ ADDED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManif
 INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\9a6f615d256208f2fe59ca1a45289c09\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\651c7d0978fd823e9639fc36ff1deddb\AndroidManifest.xml:17:1-24:12
 MERGED from [:wxrecyclerview] E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\9c8813dcfc72e6db21155ee0d1448da6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\1cc1f6d6f533ad2d87f4c8719ef0e9d9\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\d4900d2636a6d5a1466943edd254a448\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\9495ccd6cf2f0234dd3849a0413d2de5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\56c6f7bbe47fd71e52ea485ba225ad65\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\d2f123f5a31449ba982954a2655182af\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\23225d8a63a4dae3aa824d149ffe8a2a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\afcfc7136ddeb9d71238199c09f742e0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\8320028b394e70951037bc4a6e2913e0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\65e94c27f745f69bc18302c8488813b3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\10b388771ac6b94ae6adc4d838583620\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\8c5ab4d6def52d2119ac84429bc0fd1d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\17cb66256b6a07aaea21ee921aec9e09\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\56bcba2dead5997e3bc8a7646646eea7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\f11a2555a6f0d5a09455196968ae471e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4336ee4718487f17a5661533f80f711a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\28fce7c1ecb3039c887917c6c03f8fdc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6d9b9005b01dc168f93e53c8a5c0cb4d\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6216a1ab87d2ae640b77032b4b6d0596\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\297504fec4c60e3fc3427fcd740b6cb5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6314dadd1f76911c2f635bdc549ddb49\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\b22253904a0ba700a6a9f8e5b42480ed\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4c662541d9e8e8e7266cef8a5a50fc4c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\7b792aa7c9c4ec91038aabeac27fdb6d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\afee4e295848369443ef2a57dcc2d8fc\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\bd2322f6786744bee8cdbf01325f7301\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\42d233aa297246741d9ed321f00bc459\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\563b35df2260b2d12b2fd7fededb93c0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\f72560e3344cf7f99cd5ac7527cea83e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\73aaa2f1c76afd820af5310b728716f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\521816f47dd63ad688b4a126158daa98\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\54ccc0755178bf0afc9ca8cb7fc51172\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\74fcedb81810c127d818a4feb69da8b1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\c568e1a3c6354308bf2aefa16ab12d2e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\5ac65f1bcf28130a5053041937c60f99\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\2d107559e7c5652dda60749595045f93\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\3490624f7ae8cf1fc8077f90bf66094b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\44f06a4c54734acd7c7a64cd00204659\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\e5be76c3124856f6b8792048dc9988a4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\d942135728804aa82a924ca309335969\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\c514782e63d7aa80c61e34a5e2ddceaf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\b3c70b924637d2b5efdfa9d0f0dfd449\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\753e426b01eebe1293f51403ae809fe6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\73ec99f3aba8df1ede63fa867386b5c5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\07d5a1b3d5ef9a0d54e2dfc3954aa17a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\a14c32e8aff018224105598e6596031c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\846f1a8daee112868ac358d20f34bdfc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\23004cfec07683d9932264bc8df0f923\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\cbd090818a1baf880b7a1870c28cf11d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\550d4eef31609c356470186f33dfd8dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\e911ea88033d9cc6fa0f3f8da1f9bbbb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\3bb452abea396ee04d8082f90e731d24\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\cdb87afe62e3c800c7b1a734f1d3d097\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\a73e0a46d9d1889007e77dcceadc032e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\7bb33d43cc9e944cd9e842715024d15d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\059a56e1673d461fb2533a088aec38cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\072204f1fcc0faf2437d8d3c237f30aa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4c41a6df4e02351add2b1728c6bec623\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\c6d29dbd38c55090e8e6854f3ddb0956\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4a8ae106c5a695d8ea2726b7627b90a9\AndroidManifest.xml:17:1-22:12
 INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml:2:1-21:12
@@ -55,16 +55,16 @@ INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidMa
 		ADDED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml:5:5-19:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\9a6f615d256208f2fe59ca1a45289c09\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\9a6f615d256208f2fe59ca1a45289c09\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\1cc1f6d6f533ad2d87f4c8719ef0e9d9\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\1cc1f6d6f533ad2d87f4c8719ef0e9d9\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6d9b9005b01dc168f93e53c8a5c0cb4d\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6d9b9005b01dc168f93e53c8a5c0cb4d\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6216a1ab87d2ae640b77032b4b6d0596\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6216a1ab87d2ae640b77032b4b6d0596\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\651c7d0978fd823e9639fc36ff1deddb\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\651c7d0978fd823e9639fc36ff1deddb\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\54ccc0755178bf0afc9ca8cb7fc51172\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\54ccc0755178bf0afc9ca8cb7fc51172\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\23004cfec07683d9932264bc8df0f923\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\23004cfec07683d9932264bc8df0f923\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\cbd090818a1baf880b7a1870c28cf11d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\cbd090818a1baf880b7a1870c28cf11d\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6d9b9005b01dc168f93e53c8a5c0cb4d\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\23004cfec07683d9932264bc8df0f923\AndroidManifest.xml:22:18-91
 	android:supportsRtl
 		ADDED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
@@ -95,70 +95,70 @@ uses-sdk
 INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml
 INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\9a6f615d256208f2fe59ca1a45289c09\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\9a6f615d256208f2fe59ca1a45289c09\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\651c7d0978fd823e9639fc36ff1deddb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\651c7d0978fd823e9639fc36ff1deddb\AndroidManifest.xml:20:5-44
 MERGED from [:wxrecyclerview] E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:wxrecyclerview] E:\wx_open_sourcecode_custom\WXRecyclerView\wxrecyclerview\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\9c8813dcfc72e6db21155ee0d1448da6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\9c8813dcfc72e6db21155ee0d1448da6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\1cc1f6d6f533ad2d87f4c8719ef0e9d9\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\1cc1f6d6f533ad2d87f4c8719ef0e9d9\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\d4900d2636a6d5a1466943edd254a448\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\d4900d2636a6d5a1466943edd254a448\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\9495ccd6cf2f0234dd3849a0413d2de5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\9495ccd6cf2f0234dd3849a0413d2de5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\56c6f7bbe47fd71e52ea485ba225ad65\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\56c6f7bbe47fd71e52ea485ba225ad65\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\d2f123f5a31449ba982954a2655182af\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\d2f123f5a31449ba982954a2655182af\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\23225d8a63a4dae3aa824d149ffe8a2a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\23225d8a63a4dae3aa824d149ffe8a2a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\afcfc7136ddeb9d71238199c09f742e0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\afcfc7136ddeb9d71238199c09f742e0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\8320028b394e70951037bc4a6e2913e0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\8320028b394e70951037bc4a6e2913e0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\65e94c27f745f69bc18302c8488813b3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\65e94c27f745f69bc18302c8488813b3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\10b388771ac6b94ae6adc4d838583620\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\10b388771ac6b94ae6adc4d838583620\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\8c5ab4d6def52d2119ac84429bc0fd1d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\8c5ab4d6def52d2119ac84429bc0fd1d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\17cb66256b6a07aaea21ee921aec9e09\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\17cb66256b6a07aaea21ee921aec9e09\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\56bcba2dead5997e3bc8a7646646eea7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\56bcba2dead5997e3bc8a7646646eea7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\f11a2555a6f0d5a09455196968ae471e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\f11a2555a6f0d5a09455196968ae471e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4336ee4718487f17a5661533f80f711a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4336ee4718487f17a5661533f80f711a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\28fce7c1ecb3039c887917c6c03f8fdc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\28fce7c1ecb3039c887917c6c03f8fdc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6d9b9005b01dc168f93e53c8a5c0cb4d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6d9b9005b01dc168f93e53c8a5c0cb4d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6216a1ab87d2ae640b77032b4b6d0596\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6216a1ab87d2ae640b77032b4b6d0596\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\297504fec4c60e3fc3427fcd740b6cb5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\297504fec4c60e3fc3427fcd740b6cb5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6314dadd1f76911c2f635bdc549ddb49\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\6314dadd1f76911c2f635bdc549ddb49\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\b22253904a0ba700a6a9f8e5b42480ed\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\b22253904a0ba700a6a9f8e5b42480ed\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4c662541d9e8e8e7266cef8a5a50fc4c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4c662541d9e8e8e7266cef8a5a50fc4c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\7b792aa7c9c4ec91038aabeac27fdb6d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\7b792aa7c9c4ec91038aabeac27fdb6d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\afee4e295848369443ef2a57dcc2d8fc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\afee4e295848369443ef2a57dcc2d8fc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\bd2322f6786744bee8cdbf01325f7301\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\bd2322f6786744bee8cdbf01325f7301\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\42d233aa297246741d9ed321f00bc459\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\42d233aa297246741d9ed321f00bc459\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\563b35df2260b2d12b2fd7fededb93c0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\563b35df2260b2d12b2fd7fededb93c0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\f72560e3344cf7f99cd5ac7527cea83e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\f72560e3344cf7f99cd5ac7527cea83e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\73aaa2f1c76afd820af5310b728716f3\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\73aaa2f1c76afd820af5310b728716f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\521816f47dd63ad688b4a126158daa98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\521816f47dd63ad688b4a126158daa98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\54ccc0755178bf0afc9ca8cb7fc51172\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\54ccc0755178bf0afc9ca8cb7fc51172\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\74fcedb81810c127d818a4feb69da8b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\74fcedb81810c127d818a4feb69da8b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\c568e1a3c6354308bf2aefa16ab12d2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\c568e1a3c6354308bf2aefa16ab12d2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\5ac65f1bcf28130a5053041937c60f99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\5ac65f1bcf28130a5053041937c60f99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\2d107559e7c5652dda60749595045f93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\2d107559e7c5652dda60749595045f93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\3490624f7ae8cf1fc8077f90bf66094b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\3490624f7ae8cf1fc8077f90bf66094b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\44f06a4c54734acd7c7a64cd00204659\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\44f06a4c54734acd7c7a64cd00204659\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\e5be76c3124856f6b8792048dc9988a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\e5be76c3124856f6b8792048dc9988a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\d942135728804aa82a924ca309335969\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\d942135728804aa82a924ca309335969\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\c514782e63d7aa80c61e34a5e2ddceaf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\c514782e63d7aa80c61e34a5e2ddceaf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\b3c70b924637d2b5efdfa9d0f0dfd449\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\b3c70b924637d2b5efdfa9d0f0dfd449\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\753e426b01eebe1293f51403ae809fe6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\753e426b01eebe1293f51403ae809fe6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\73ec99f3aba8df1ede63fa867386b5c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\73ec99f3aba8df1ede63fa867386b5c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\07d5a1b3d5ef9a0d54e2dfc3954aa17a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\07d5a1b3d5ef9a0d54e2dfc3954aa17a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\a14c32e8aff018224105598e6596031c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\a14c32e8aff018224105598e6596031c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\846f1a8daee112868ac358d20f34bdfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\846f1a8daee112868ac358d20f34bdfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\23004cfec07683d9932264bc8df0f923\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\23004cfec07683d9932264bc8df0f923\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\cbd090818a1baf880b7a1870c28cf11d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\cbd090818a1baf880b7a1870c28cf11d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\550d4eef31609c356470186f33dfd8dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\550d4eef31609c356470186f33dfd8dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\e911ea88033d9cc6fa0f3f8da1f9bbbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\e911ea88033d9cc6fa0f3f8da1f9bbbb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\3bb452abea396ee04d8082f90e731d24\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\3bb452abea396ee04d8082f90e731d24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\cdb87afe62e3c800c7b1a734f1d3d097\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\cdb87afe62e3c800c7b1a734f1d3d097\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\a73e0a46d9d1889007e77dcceadc032e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\a73e0a46d9d1889007e77dcceadc032e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\7bb33d43cc9e944cd9e842715024d15d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\7bb33d43cc9e944cd9e842715024d15d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\059a56e1673d461fb2533a088aec38cb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\059a56e1673d461fb2533a088aec38cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\072204f1fcc0faf2437d8d3c237f30aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\072204f1fcc0faf2437d8d3c237f30aa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4c41a6df4e02351add2b1728c6bec623\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4c41a6df4e02351add2b1728c6bec623\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\c6d29dbd38c55090e8e6854f3ddb0956\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\c6d29dbd38c55090e8e6854f3ddb0956\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4a8ae106c5a695d8ea2726b7627b90a9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Welthy\.gradle\caches\transforms-2\files-2.1\4a8ae106c5a695d8ea2726b7627b90a9\AndroidManifest.xml:20:5-44
 INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml
 INJECTED from E:\wx_open_sourcecode_custom\WXRecyclerView\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
