@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <wxrecyclerview.wx.cn.wxrecyclerview2.WXRecyclerView
+    <wxrecyclerview.wx.cn.wxrecyclerview.WXRecyclerView
         android:id="@+id/wx_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

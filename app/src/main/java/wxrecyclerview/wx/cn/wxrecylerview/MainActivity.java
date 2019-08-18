@@ -6,22 +6,29 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import wxrecyclerview.wx.cn.wxrecylerview.swiperecyclerview_demo.SwipeRecyclerViewDemo;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    private Button toWXRecyclerView;
+    private Button toWXRecyclerView,toSwipeRecycler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        initView();
+        initEvent();
     }
 
     private void initView(){
         toWXRecyclerView = findViewById(R.id.toWXRecycler);
+        toSwipeRecycler = findViewById(R.id.toSwipeRecycler);
     }
 
     private void initEvent(){
         toWXRecyclerView.setOnClickListener(this);
+        toSwipeRecycler.setOnClickListener(this);
     }
 
     @Override
@@ -31,8 +38,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent wxRecyclerIt = new Intent(MainActivity.this,WXRecyclerViewDemo.class);
                 startActivity(wxRecyclerIt);
                 break;
-                default:
-                    break;
+            case R.id.toSwipeRecycler:
+                Intent swipeRecyclerIt = new Intent(MainActivity.this, SwipeRecyclerViewDemo.class);
+                startActivity(swipeRecyclerIt);
+                break;
+            default:
+                break;
         }
     }
 }

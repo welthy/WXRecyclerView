@@ -1,4 +1,4 @@
-package wxrecyclerview.wx.cn.wxrecyclerview2;
+package wxrecyclerview.wx.cn.wxrecyclerview;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package wxrecyclerview.wx.cn.wxrecyclerview2;
+package wxrecyclerview.wx.cn.wxrecyclerview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
