@@ -16,6 +16,9 @@ public abstract class BaseWXRecyclerAdapter extends RecyclerView.Adapter<WXViewH
 
     private Context mBaseContext;
     private List<WXRecyclerItem> mBaseDatas;
+
+    //item是否允许删除开关
+    private boolean mItemDeleteAllowed = false;
     //item点击事件
     private OnWXItemClickListener itemClickListener;
 

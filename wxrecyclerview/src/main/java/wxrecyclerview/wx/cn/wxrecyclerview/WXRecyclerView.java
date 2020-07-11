@@ -22,6 +22,10 @@ public class WXRecyclerView extends RecyclerView {
 
     private final String TAG = WXRecyclerView.class.getSimpleName();
     private final int INVALID_POSITION = -1;
+    //左滑开关
+    private boolean mLeftScrollAllowed = true;
+    //右滑开关
+    private boolean mRightScrollAllowed = true;
 
     public WXRecyclerView(@NonNull Context context) {
         this(context,null);
@@ -81,7 +85,9 @@ public class WXRecyclerView extends RecyclerView {
                 if (viewParent == null){
                     break;
                 }
-                if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > touchSlop){
+                if ((mLeftScrollAllowed || mRightScrollAllowed)
+                        && (Math.abs(deltaX) > Math.abs(deltaY))
+                        && (Math.abs(deltaX)) > touchSlop){
                     //当前满足移动条件，则WXRecyclerView拦截触摸事件
                     LogUtil.i(TAG,"move horizontal");
                     mHorizontalMoving = true;
@@ -106,7 +112,10 @@ public class WXRecyclerView extends RecyclerView {
             case MotionEvent.ACTION_DOWN:
                 break;
             case MotionEvent.ACTION_MOVE:
-                if (mHorizontalMoving && Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > touchSlop){
+                if (mHorizontalMoving
+                        && (mLeftScrollAllowed || mRightScrollAllowed)
+                        && (Math.abs(deltaX) > Math.abs(deltaY))
+                        && (Math.abs(deltaX) > touchSlop)){
                     //计算水平移动偏移量
                     int dx = lastX - x;
                     mMoveView.scrollBy(dx,0);

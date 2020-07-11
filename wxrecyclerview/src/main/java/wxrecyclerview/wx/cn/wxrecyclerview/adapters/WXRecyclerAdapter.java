@@ -6,14 +6,12 @@ import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import java.util.List;
 
 import wxrecyclerview.wx.cn.wxrecyclerview.R;
 import wxrecyclerview.wx.cn.wxrecyclerview.viewholder.WXViewHolder;
 import wxrecyclerview.wx.cn.wxrecyclerview.bean.WXRecyclerItem;
-import wxrecyclerview.wx.cn.wxrecyclerview.utils.LogUtil;
 
 public class WXRecyclerAdapter extends BaseWXRecyclerAdapter {
 
@@ -35,7 +33,7 @@ public class WXRecyclerAdapter extends BaseWXRecyclerAdapter {
 
     @Override
     public View getInflateLayout(Context context,ViewGroup viewGroup) {
-        return LayoutInflater.from(context).inflate(R.layout.wx_recycler_item_layout,viewGroup,false);
+        return LayoutInflater.from(context).inflate(R.layout.wx_base_recycler_item_layout,viewGroup,false);
     }
 
     @Override

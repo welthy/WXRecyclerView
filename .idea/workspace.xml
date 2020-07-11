@@ -22,15 +22,12 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba3bdfb9-a271-4f31-a438-11255f32ec6e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview/adapters/BaseWXRecyclerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+    <list default="true" id="ba3bdfb9-a271-4f31-a438-11255f32ec6e" name="Default" comment="添加item的点击事件，抽象出adapter，提供getInflateLayout()供用户使用自定义布局">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/wxrecyclerview/wx/cn/wxrecylerview/WXRecyclerViewDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/wxrecyclerview/wx/cn/wxrecylerview/WXRecyclerViewDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview/WXRecyclerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview/adapters/WXRecyclerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview/WXViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview/viewholder/WXViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxrecyclerview/src/main/res/layout/wx_recycler_item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wxrecyclerview/src/main/res/layout/wx_recycler_item_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/项目进度记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/项目进度记录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview/WXRecyclerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview/WXRecyclerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview/adapters/BaseWXRecyclerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview/adapters/BaseWXRecyclerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview/adapters/WXRecyclerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/wxrecyclerview/src/main/java/wxrecyclerview/wx/cn/wxrecyclerview/adapters/WXRecyclerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxrecyclerview/src/main/res/layout/wx_recycler_item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wxrecyclerview/src/main/res/layout/wx_base_recycler_item_layout.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594457750804</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加item的点击事件，抽象出adapter，提供getInflateLayout()供用户使用自定义布局">
+      <created>1594473127566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594473127566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,17 +285,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="添加item的点击事件，抽象出adapter，提供getInflateLayout()供用户使用自定义布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加item的点击事件，抽象出adapter，提供getInflateLayout()供用户使用自定义布局" />
   </component>
   <component name="WindowStateProjectService">
     <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1594472906770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594472906770" />
-    <state x="232" y="39" key="CommitChangelistDialog2" timestamp="1594457747939">
+    <state x="232" y="0" key="CommitChangelistDialog2" timestamp="1594473124383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="232" y="39" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594457747939" />
+    <state x="232" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594473124383" />
     <state width="1867" height="213" key="GridCell.Tab.0.bottom" timestamp="1594455413173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -324,5 +329,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="504" y="181" width="927" height="678" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594461075580" />
+    <state x="524" y="5" width="870" height="1034" key="search.everywhere.popup" timestamp="1594473430510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="524" y="5" width="870" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594473430510" />
   </component>
 </project>
