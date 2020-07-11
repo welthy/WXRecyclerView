@@ -5,13 +5,18 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import wxrecyclerview.wx.cn.wxrecyclerview.WXRecyclerAdapter;
+import wxrecyclerview.wx.cn.wxrecyclerview.adapters.BaseWXRecyclerAdapter;
+import wxrecyclerview.wx.cn.wxrecyclerview.adapters.WXRecyclerAdapter;
 import wxrecyclerview.wx.cn.wxrecyclerview.WXRecyclerView;
 import wxrecyclerview.wx.cn.wxrecyclerview.bean.WXRecyclerItem;
+import wxrecyclerview.wx.cn.wxrecyclerview.utils.LogUtil;
 
 public class WXRecyclerViewDemo extends Activity {
 
@@ -32,6 +37,7 @@ public class WXRecyclerViewDemo extends Activity {
         initView();
         initData();
         initWXRecyclerView();
+        initEvent();
 
     }
 
@@ -39,8 +45,13 @@ public class WXRecyclerViewDemo extends Activity {
         wxRecyclerView = findViewById(R.id.wx_recyclerview);
     }
 
+    private void initEvent(){
+
+    }
+
     private void initWXRecyclerView(){
         wxRecyclerAdapter = new WXRecyclerAdapter(this,datas);
+        wxRecyclerAdapter.setOnItemClickListener(new DemoAdapterItemClickListener());
         wxRecyclerView.setAdapter(wxRecyclerAdapter);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
@@ -57,4 +68,17 @@ public class WXRecyclerViewDemo extends Activity {
             datas.add(item);
         }
     }
+
+    class DemoAdapterItemClickListener implements BaseWXRecyclerAdapter.OnWXItemClickListener {
+        @Override
+        public void onWXItemClick(View view) {
+            Toast.makeText(WXRecyclerViewDemo.this, "WXItem点击了.", Toast.LENGTH_SHORT).show();
+        }
+
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            Toast.makeText(WXRecyclerViewDemo.this, "第" + position + "点击了。", Toast.LENGTH_SHORT).show();
+        }
+    }
+
 }
