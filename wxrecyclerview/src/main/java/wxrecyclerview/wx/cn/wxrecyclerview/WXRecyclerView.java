@@ -40,27 +40,39 @@ public class WXRecyclerView extends RecyclerView {
         touchSlop = ViewConfiguration.get(context).getScaledTouchSlop();
     }
 
-    private int lastTouchPosition;
+    //private int lastTouchPosition;
     private int downX,downY;
     private int deltaX,deltaY;
+    private int lastX;
     private int touchSlop;
+    private View mMoveView,mLastView;
+    private boolean mHorizontalMoving;
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent e) {
         int x = (int) e.getX();
         int y = (int) e.getY();
-        int pos = findPositionWhenTouch(x,y);
+        //查找当前触摸的item位置
+        /*int pos = findPositionWhenTouch(x,y);
         if (pos != lastTouchPosition){
             lastTouchPosition = pos;
-        }
+        }*/
         int action = e.getAction();
-        LogUtil.i(TAG,"touch pos is: "+pos + "   action = "+action);
+        //LogUtil.i(TAG,"touch pos is: "+pos + "   action = "+action);
 
         switch (action){
             case MotionEvent.ACTION_DOWN:
                 LogUtil.i(TAG,"ACTION_DOWN");
                 downX = x;
                 downY = y;
+                //查找当前触摸的Item
+                mMoveView = findChildViewUnder(x,y);
+                if (mLastView != null && mLastView != mMoveView){
+                    //关闭其他非触摸的Item
+                    //closeItem(mLastView);
+                }
+                //按下后，避免当前Item瞬间移动到手指按下的位置
+                lastX = x;
                 break;
             case MotionEvent.ACTION_MOVE:
                 deltaX = x - downX;
@@ -69,20 +81,45 @@ public class WXRecyclerView extends RecyclerView {
                 if (viewParent == null){
                     break;
                 }
-                LogUtil.i(TAG,"ACTION_MOVE move deltaX = "+deltaX + "  deltaY = "+deltaY);
                 if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > touchSlop){
+                    //当前满足移动条件，则WXRecyclerView拦截触摸事件
                     LogUtil.i(TAG,"move horizontal");
-                    viewParent.requestDisallowInterceptTouchEvent(true);
+                    mHorizontalMoving = true;
+                    return true;
                 }
                 break;
             case MotionEvent.ACTION_UP:
                 LogUtil.i(TAG,"ACTION_UP");
-                break;
             case MotionEvent.ACTION_CANCEL:
                 LogUtil.i(TAG,"ACTION_CANCEL");
+                mLastView = mMoveView;
                 break;
         }
         return super.onInterceptTouchEvent(e);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent e) {
+        int x = (int) e.getX();
+        int y = (int) e.getY();
+        switch (e.getAction()){
+            case MotionEvent.ACTION_DOWN:
+                break;
+            case MotionEvent.ACTION_MOVE:
+                if (mHorizontalMoving && Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > touchSlop){
+                    //计算水平移动偏移量
+                    int dx = lastX - x;
+                    mMoveView.scrollBy(dx,0);
+                }
+                lastX = x;
+                break;
+            case MotionEvent.ACTION_UP:
+            case MotionEvent.ACTION_CANCEL:
+                mHorizontalMoving = false;
+               // closeItem();
+                break;
+        }
+        return super.onTouchEvent(e);
     }
 
     private Rect rect;
@@ -108,7 +145,11 @@ public class WXRecyclerView extends RecyclerView {
         return INVALID_POSITION;
     }
 
-    public void layout(){
-
+    //复原Item置初始位置
+    private void closeItem(View view){
+        if (mLastView != null && mLastView.getX() != 0){
+            mLastView.scrollTo(view.getScrollX(),0);
+        }
     }
+
 }

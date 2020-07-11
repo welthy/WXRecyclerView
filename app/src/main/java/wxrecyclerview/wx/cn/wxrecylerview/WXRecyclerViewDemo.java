@@ -31,7 +31,7 @@ public class WXRecyclerViewDemo extends Activity {
 
         initView();
         initData();
-        initEvent();
+        initWXRecyclerView();
 
     }
 
@@ -39,7 +39,7 @@ public class WXRecyclerViewDemo extends Activity {
         wxRecyclerView = findViewById(R.id.wx_recyclerview);
     }
 
-    private void initEvent(){
+    private void initWXRecyclerView(){
         wxRecyclerAdapter = new WXRecyclerAdapter(this,datas);
         wxRecyclerView.setAdapter(wxRecyclerAdapter);
         LinearLayoutManager llm = new LinearLayoutManager(this);

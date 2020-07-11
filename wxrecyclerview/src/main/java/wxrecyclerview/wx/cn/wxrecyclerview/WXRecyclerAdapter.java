@@ -1,5 +1,6 @@
 package wxrecyclerview.wx.cn.wxrecyclerview;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -32,7 +33,7 @@ public class WXRecyclerAdapter extends RecyclerView.Adapter<WXViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull WXViewHolder wxViewHolder,final int i) {
+    public void onBindViewHolder(@NonNull WXViewHolder wxViewHolder, @SuppressLint("RecyclerView") final int i) {
         if (wxViewHolder.tv != null){
             wxViewHolder.tv.setText(datas.get(i).getName().isEmpty()?"":datas.get(i).getName());
         }
