@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WXRecyclerView.iml" filepath="$PROJECT_DIR$/WXRecyclerView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WXRecyclerView.iml" filepath="$PROJECT_DIR$/WXRecyclerView.iml" group="WXRecyclerView" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="WXRecyclerView/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wxrecyclerview/com.github.welthy-wxrecyclerview.iml" filepath="$PROJECT_DIR$/.idea/modules/wxrecyclerview/com.github.welthy-wxrecyclerview.iml" group="WXRecyclerView/wxrecyclerview" />
       <module fileurl="file://$PROJECT_DIR$/wxrecyclerview/wxrecyclerview.iml" filepath="$PROJECT_DIR$/wxrecyclerview/wxrecyclerview.iml" />
     </modules>
   </component>
