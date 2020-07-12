@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -46,7 +47,7 @@ public class WXRecyclerAdapter extends BaseWXRecyclerAdapter {
             wxViewHolder.jump.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
+                    Toast.makeText(context, i +"　点击", Toast.LENGTH_SHORT).show();
                 }
             });
         }

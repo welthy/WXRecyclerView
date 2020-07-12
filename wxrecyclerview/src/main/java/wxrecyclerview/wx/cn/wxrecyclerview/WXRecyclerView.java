@@ -11,12 +11,14 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewParent;
 
 import wxrecyclerview.wx.cn.wxrecyclerview.utils.LogUtil;
+import wxrecyclerview.wx.cn.wxrecyclerview.widgets.WXItemView;
 
 public class WXRecyclerView extends RecyclerView {
 
@@ -52,17 +54,14 @@ public class WXRecyclerView extends RecyclerView {
     private View mMoveView,mLastView;
     private boolean mHorizontalMoving;
 
+    private int rightLimit;
+
     @Override
     public boolean onInterceptTouchEvent(MotionEvent e) {
         int x = (int) e.getX();
         int y = (int) e.getY();
-        //查找当前触摸的item位置
-        /*int pos = findPositionWhenTouch(x,y);
-        if (pos != lastTouchPosition){
-            lastTouchPosition = pos;
-        }*/
+
         int action = e.getAction();
-        //LogUtil.i(TAG,"touch pos is: "+pos + "   action = "+action);
 
         switch (action){
             case MotionEvent.ACTION_DOWN:
@@ -73,10 +72,11 @@ public class WXRecyclerView extends RecyclerView {
                 mMoveView = findChildViewUnder(x,y);
                 if (mLastView != null && mLastView != mMoveView){
                     //关闭其他非触摸的Item
-                    //closeItem(mLastView);
+                    closeItem();
                 }
                 //按下后，避免当前Item瞬间移动到手指按下的位置
                 lastX = x;
+                rightLimit = mMoveView.findViewById(R.id.right_menu).getWidth();
                 break;
             case MotionEvent.ACTION_MOVE:
                 deltaX = x - downX;
@@ -98,7 +98,7 @@ public class WXRecyclerView extends RecyclerView {
                 LogUtil.i(TAG,"ACTION_UP");
             case MotionEvent.ACTION_CANCEL:
                 LogUtil.i(TAG,"ACTION_CANCEL");
-                mLastView = mMoveView;
+               // closeItem();
                 break;
         }
         return super.onInterceptTouchEvent(e);
@@ -115,7 +115,8 @@ public class WXRecyclerView extends RecyclerView {
                 if (mHorizontalMoving
                         && (mLeftScrollAllowed || mRightScrollAllowed)
                         && (Math.abs(deltaX) > Math.abs(deltaY))
-                        && (Math.abs(deltaX) > touchSlop)){
+                        && (Math.abs(deltaX) > touchSlop)
+                        && (mMoveView.getScrollX() + deltaX) < rightLimit){
                     //计算水平移动偏移量
                     int dx = lastX - x;
                     mMoveView.scrollBy(dx,0);
@@ -124,11 +125,22 @@ public class WXRecyclerView extends RecyclerView {
                 break;
             case MotionEvent.ACTION_UP:
             case MotionEvent.ACTION_CANCEL:
-                mHorizontalMoving = false;
-               // closeItem();
+                Log.d("wx","onTouchEvent() mHorizontalMoving = " + mHorizontalMoving);
+                if (mHorizontalMoving){
+                    mHorizontalMoving = false;
+                    //滑动结束后，将当前滑动的View赋值给mLastView
+                    mLastView = mMoveView;
+                }else {
+                    closeItem();
+                }
                 break;
         }
         return super.onTouchEvent(e);
+    }
+
+    @Override
+    public void computeScroll() {
+        super.computeScroll();
     }
 
     private Rect rect;
@@ -155,9 +167,9 @@ public class WXRecyclerView extends RecyclerView {
     }
 
     //复原Item置初始位置
-    private void closeItem(View view){
-        if (mLastView != null && mLastView.getX() != 0){
-            mLastView.scrollTo(view.getScrollX(),0);
+    private void closeItem(){
+        if (mLastView != null && mLastView.getScrollX() != 0){
+            mLastView.scrollTo(0,0);
         }
     }
 
