@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import java.util.List;
 
 import wxrecyclerview.wx.cn.wxrecyclerview.bean.WXRecyclerItem;
+import wxrecyclerview.wx.cn.wxrecyclerview.utils.Utils;
 import wxrecyclerview.wx.cn.wxrecyclerview.viewholder.WXViewHolder;
 
 public abstract class BaseWXRecyclerAdapter extends RecyclerView.Adapter<WXViewHolder>{
@@ -45,6 +46,7 @@ public abstract class BaseWXRecyclerAdapter extends RecyclerView.Adapter<WXViewH
 
     @Override
     public void onBindViewHolder(@NonNull WXViewHolder wxViewHolder, int i) {
+        wxViewHolder.middleContent.getLayoutParams().width = Utils.getScreenWidth(mBaseContext);
         if (wxViewHolder.root != null){
             wxViewHolder.root.setOnClickListener(new View.OnClickListener() {
                 @Override
