@@ -16,6 +16,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewParent;
+import android.widget.Scroller;
 
 import wxrecyclerview.wx.cn.wxrecyclerview.utils.LogUtil;
 import wxrecyclerview.wx.cn.wxrecyclerview.widgets.WXItemView;
@@ -28,6 +29,8 @@ public class WXRecyclerView extends RecyclerView {
     private boolean mLeftScrollAllowed = true;
     //右滑开关
     private boolean mRightScrollAllowed = true;
+
+    private Scroller closeScroller;
 
     public WXRecyclerView(@NonNull Context context) {
         this(context,null);
@@ -44,6 +47,7 @@ public class WXRecyclerView extends RecyclerView {
 
     private void init(Context context){
         touchSlop = ViewConfiguration.get(context).getScaledTouchSlop();
+        closeScroller = new Scroller(context);
     }
 
     //private int lastTouchPosition;
@@ -141,6 +145,7 @@ public class WXRecyclerView extends RecyclerView {
                         mMoveView.scrollTo(leftLimit,0);
                     }
                 }else {
+                    Log.d("wx",TAG + " onTouchEvent() closeItem()");
                     closeItem();
                 }
                 break;
@@ -150,7 +155,12 @@ public class WXRecyclerView extends RecyclerView {
 
     @Override
     public void computeScroll() {
-        super.computeScroll();
+        if (closeScroller.computeScrollOffset()){
+            if (mLastView != null){
+                mLastView.scrollTo(closeScroller.getCurrX(),closeScroller.getCurrY());
+                invalidate();
+            }
+        }
     }
 
     private int getMenuWidth(View view){
@@ -183,10 +193,15 @@ public class WXRecyclerView extends RecyclerView {
     private void closeItem(){
         if (mLastView != null){
             int scrollX = mLastView.getScrollX();
-            if (((scrollX > 0) && scrollX < leftLimit)
-                    || (scrollX > leftLimit && scrollX < (leftLimit + rightLimit)))
-            Log.d("wx", TAG + "  closeItem() execute");
-            mLastView.scrollTo(leftLimit,0);
+            Log.d("wx", TAG + " closeItem() scrollX = "+scrollX
+                    +"  leftLimit = "+leftLimit
+                    +"  rightLimit = "+rightLimit
+                    +"  dis = "+(leftLimit - scrollX));
+            if (scrollX == 0 || scrollX == (leftLimit + rightLimit)){
+                //mLastView.scrollTo(leftLimit,0);
+                closeScroller.startScroll(scrollX,0,leftLimit - scrollX, 0,500);
+            }
+
         }
     }
 
