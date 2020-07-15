@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Toast;
@@ -12,6 +13,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import wxrecyclerview.wx.cn.wxrecyclerview.WXItemTouchHelperCallback;
 import wxrecyclerview.wx.cn.wxrecyclerview.adapters.BaseWXRecyclerAdapter;
 import wxrecyclerview.wx.cn.wxrecyclerview.adapters.WXRecyclerAdapter;
 import wxrecyclerview.wx.cn.wxrecyclerview.WXRecyclerView;
@@ -59,6 +61,7 @@ public class WXRecyclerViewDemo extends Activity {
         wxRecyclerView.setLayoutManager(llm);
 
         wxRecyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));
+        new ItemTouchHelper(new WXItemTouchHelperCallback(wxRecyclerAdapter)).attachToRecyclerView(wxRecyclerView);
     }
 
     private void initData(){
