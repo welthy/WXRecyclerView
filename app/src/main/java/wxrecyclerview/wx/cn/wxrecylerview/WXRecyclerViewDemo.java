@@ -17,6 +17,7 @@ import wxrecyclerview.wx.cn.wxrecyclerview.adapters.WXRecyclerAdapter;
 import wxrecyclerview.wx.cn.wxrecyclerview.WXRecyclerView;
 import wxrecyclerview.wx.cn.wxrecyclerview.bean.WXRecyclerItem;
 import wxrecyclerview.wx.cn.wxrecyclerview.utils.LogUtil;
+import wxrecyclerview.wx.cn.wxrecyclerview.utils.WXConstants;
 
 public class WXRecyclerViewDemo extends Activity {
 
@@ -64,7 +65,13 @@ public class WXRecyclerViewDemo extends Activity {
         datas = new ArrayList<>();
         for (int i=0; i<INITIAL_DATA_SIZE; i++){
             WXRecyclerItem item = new WXRecyclerItem();
-            item.setName("A"+i);
+            if (i % 4 == 0){
+                item.setType(WXConstants.TYPE_TITLE);
+                item.setName("Title "+i);
+            }else {
+                item.setType(WXConstants.TYPE_NORMAL);
+                item.setName("A"+i);
+            }
             datas.add(item);
         }
     }

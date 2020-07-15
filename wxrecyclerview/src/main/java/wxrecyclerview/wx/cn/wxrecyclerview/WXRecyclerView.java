@@ -19,6 +19,7 @@ import android.view.ViewParent;
 import android.widget.Scroller;
 
 import wxrecyclerview.wx.cn.wxrecyclerview.utils.LogUtil;
+import wxrecyclerview.wx.cn.wxrecyclerview.utils.WXConstants;
 import wxrecyclerview.wx.cn.wxrecyclerview.widgets.WXItemView;
 
 public class WXRecyclerView extends RecyclerView {
@@ -59,6 +60,8 @@ public class WXRecyclerView extends RecyclerView {
     private boolean mHorizontalMoving;
 
     private int rightLimit,leftLimit;
+    private int touchPosition;
+    private boolean canMove;
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent e) {
@@ -73,7 +76,13 @@ public class WXRecyclerView extends RecyclerView {
                 downX = x;
                 downY = y;
                 //查找当前触摸的Item
-                mMoveView = (WXItemView) findChildViewUnder(x,y);
+                touchPosition = findPositionWhenTouch(x,y);
+                if (getAdapter().getItemViewType(touchPosition) == WXConstants.TYPE_NORMAL) {
+                    mMoveView = (WXItemView) findChildViewUnder(x,y);
+                    canMove = true;
+                }else {
+                    canMove = false;
+                }
                 if (mLastView != null && mLastView != mMoveView){
                     //关闭其他非触摸的Item
                     Log.d("wx",TAG + " onInterceptTouchEvent() closeItem()");
@@ -81,8 +90,11 @@ public class WXRecyclerView extends RecyclerView {
                 }
                 //按下后，避免当前Item瞬间移动到手指按下的位置
                 lastX = x;
-                rightLimit = getMenuWidth(mMoveView.findViewById(R.id.right_menu));
-                leftLimit = getMenuWidth(mMoveView.findViewById(R.id.left_menu));
+                if (mMoveView != null){
+                    rightLimit = getMenuWidth(mMoveView.findViewById(R.id.right_menu));
+                    leftLimit = getMenuWidth(mMoveView.findViewById(R.id.left_menu));
+                }
+
                 break;
             case MotionEvent.ACTION_MOVE:
                 deltaX = x - downX;
@@ -93,7 +105,8 @@ public class WXRecyclerView extends RecyclerView {
                 }
                 if ((mLeftScrollAllowed || mRightScrollAllowed)
                         && (Math.abs(deltaX) > Math.abs(deltaY))
-                        && (Math.abs(deltaX)) > touchSlop){
+                        && (Math.abs(deltaX)) > touchSlop
+                        && canMove){
                     //当前满足移动条件，则WXRecyclerView拦截触摸事件
                     LogUtil.i(TAG,"move horizontal");
                     mHorizontalMoving = true;
