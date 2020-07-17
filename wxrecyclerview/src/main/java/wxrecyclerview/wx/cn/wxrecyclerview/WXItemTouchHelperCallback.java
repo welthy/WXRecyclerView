@@ -4,6 +4,8 @@ import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
+import java.util.Collections;
+
 import wxrecyclerview.wx.cn.wxrecyclerview.adapters.WXRecyclerAdapter;
 import wxrecyclerview.wx.cn.wxrecyclerview.viewholder.WXViewHolder;
 
@@ -27,8 +29,13 @@ public class WXItemTouchHelperCallback extends ItemTouchHelper.Callback {
     }
 
     @Override
-    public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder viewHolder1) {
-        return true;
+    public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder moveHolder, @NonNull RecyclerView.ViewHolder target) {
+        if (target instanceof WXViewHolder){
+            Collections.swap(wxRecyclerAdapter.getDatas(),moveHolder.getAdapterPosition(),target.getAdapterPosition());
+            wxRecyclerAdapter.notifyDataSetChanged();
+            return false;
+        }
+        return false;
     }
 
     @Override

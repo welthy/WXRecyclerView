@@ -41,8 +41,10 @@ public class WXItemView extends LinearLayout {
         if (!mInit){
             leftMenu = findViewById(R.id.left_menu);
             rightMenu = findViewById(R.id.right_menu);
-            int dx = leftMenu.getWidth();
-            this.scrollTo(dx,0);
+            if (leftMenu != null){
+                int dx = leftMenu.getWidth();
+                this.scrollTo(dx,0);
+            }
             mInit = true;
         }
     }

@@ -1,8 +1,9 @@
-package wxrecyclerview.wx.cn.wxrecyclerview.adapters;
+package wxrecyclerview.wx.cn.wxrecyclerview.base;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -19,6 +20,7 @@ import wxrecyclerview.wx.cn.wxrecyclerview.utils.WXConstants;
 
 public abstract class BaseWXRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
 
+    private final String TAG = BaseWXRecyclerAdapter.class.getSimpleName();
     private Context mBaseContext;
     private List<WXRecyclerItem> mBaseDatas;
 
@@ -95,6 +97,7 @@ public abstract class BaseWXRecyclerAdapter extends RecyclerView.Adapter<Recycle
         WXRecyclerItem item = mBaseDatas.get(position);
         if (item != null){
             int type = item.getType();
+            Log.d("wx",TAG + " getItemViewType() type = "+type);
             if (type == WXConstants.TYPE_HEAD){
                 return WXConstants.TYPE_HEAD;
             }else if (type == WXConstants.TYPE_FOOT){
@@ -106,5 +109,9 @@ public abstract class BaseWXRecyclerAdapter extends RecyclerView.Adapter<Recycle
             }
         }
         return WXConstants.TYPE_INVALID;
+    }
+
+    public List<WXRecyclerItem> getDatas(){
+        return mBaseDatas;
     }
 }

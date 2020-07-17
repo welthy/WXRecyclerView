@@ -12,6 +12,7 @@ import android.widget.Toast;
 import java.util.List;
 
 import wxrecyclerview.wx.cn.wxrecyclerview.R;
+import wxrecyclerview.wx.cn.wxrecyclerview.base.BaseWXRecyclerAdapter;
 import wxrecyclerview.wx.cn.wxrecyclerview.viewholder.WXViewHolder;
 import wxrecyclerview.wx.cn.wxrecyclerview.bean.WXRecyclerItem;
 

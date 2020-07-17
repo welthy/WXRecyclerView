@@ -14,11 +14,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import wxrecyclerview.wx.cn.wxrecyclerview.WXItemTouchHelperCallback;
-import wxrecyclerview.wx.cn.wxrecyclerview.adapters.BaseWXRecyclerAdapter;
+import wxrecyclerview.wx.cn.wxrecyclerview.base.BaseWXRecyclerAdapter;
 import wxrecyclerview.wx.cn.wxrecyclerview.adapters.WXRecyclerAdapter;
 import wxrecyclerview.wx.cn.wxrecyclerview.WXRecyclerView;
 import wxrecyclerview.wx.cn.wxrecyclerview.bean.WXRecyclerItem;
-import wxrecyclerview.wx.cn.wxrecyclerview.utils.LogUtil;
 import wxrecyclerview.wx.cn.wxrecyclerview.utils.WXConstants;
 
 public class WXRecyclerViewDemo extends Activity {
@@ -49,7 +48,7 @@ public class WXRecyclerViewDemo extends Activity {
     }
 
     private void initEvent(){
-
+        //wxRecyclerView.setDragEnable(true);
     }
 
     private void initWXRecyclerView(){
@@ -61,7 +60,6 @@ public class WXRecyclerViewDemo extends Activity {
         wxRecyclerView.setLayoutManager(llm);
 
         wxRecyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));
-        new ItemTouchHelper(new WXItemTouchHelperCallback(wxRecyclerAdapter)).attachToRecyclerView(wxRecyclerView);
     }
 
     private void initData(){
