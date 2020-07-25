@@ -48,6 +48,7 @@ public class WXRecyclerViewDemo extends Activity {
     }
 
     private void initEvent(){
+        wxRecyclerView.setSwipeEnable(true);
         wxRecyclerView.setDragEnable(true);
     }
 

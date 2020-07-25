@@ -67,7 +67,7 @@ public class WXRecyclerView extends RecyclerView {
             public void handleMessage(Message msg) {
                 switch (msg.what){
                     case LONG_PRESS:
-                        Log.d("welthy",TAG + " mMainHandler LONG_PRESS");
+                        LogUtil.d(TAG,TAG + " mMainHandler LONG_PRESS");
                         state = WXRecyclerViewState.LONG_PRESS;
                         updateMoveState();
                         break;
@@ -268,8 +268,6 @@ public class WXRecyclerView extends RecyclerView {
         LayoutManager lm = getLayoutManager();
         if (!WXConstants.TOGGLE_SWIPE){
             LogUtil.w(TAG,"getMoveEnable() TOGGLE_SWIPE is " + WXConstants.TOGGLE_SWIPE);
-            moveAble = false;
-        } else if (state != WXRecyclerViewState.SWIPE){
             moveAble = false;
         } else if (!(lm instanceof LinearLayoutManager)){
             LogUtil.w(TAG,"getMoveEnable()  It's LayoutManager is LinearLayoutManager = "+(lm instanceof LinearLayoutManager));

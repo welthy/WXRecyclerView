@@ -7,10 +7,12 @@ import android.support.v7.widget.helper.ItemTouchHelper;
 import java.util.Collections;
 
 import wxrecyclerview.wx.cn.wxrecyclerview.adapters.WXRecyclerAdapter;
+import wxrecyclerview.wx.cn.wxrecyclerview.utils.LogUtil;
 import wxrecyclerview.wx.cn.wxrecyclerview.viewholder.WXViewHolder;
 
 public class WXItemTouchHelperCallback extends ItemTouchHelper.Callback {
 
+    private final String TAG = WXItemTouchHelperCallback.class.getSimpleName();
     private WXRecyclerAdapter wxRecyclerAdapter;
 
     public WXItemTouchHelperCallback(WXRecyclerAdapter wxRecyclerAdapter) {
@@ -20,8 +22,8 @@ public class WXItemTouchHelperCallback extends ItemTouchHelper.Callback {
     @Override
     public int getMovementFlags(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder) {
         if (viewHolder instanceof WXViewHolder){
-            int dragFlags = ItemTouchHelper.ACTION_STATE_DRAG;
-            int swipeFlags = ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT;
+            int dragFlags = ItemTouchHelper.UP | ItemTouchHelper.DOWN;
+            int swipeFlags = 0;
             return makeMovementFlags(dragFlags,swipeFlags);
         }
         return 0;
@@ -30,12 +32,16 @@ public class WXItemTouchHelperCallback extends ItemTouchHelper.Callback {
 
     @Override
     public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder moveHolder, @NonNull RecyclerView.ViewHolder target) {
-        if ((((WXRecyclerView)recyclerView).state == WXRecyclerViewState.SWIPE) && (target instanceof WXViewHolder)){
+        LogUtil.d("WXRecyclerView",TAG + "  state = "+((WXRecyclerView)recyclerView).state);
+        boolean flag = false;
+        if (((WXRecyclerView)recyclerView).state == WXRecyclerViewState.SWIPE){
+            flag = false;
+        }else if ((target instanceof WXViewHolder)){
             Collections.swap(wxRecyclerAdapter.getDatas(),moveHolder.getAdapterPosition(),target.getAdapterPosition());
             wxRecyclerAdapter.notifyDataSetChanged();
-            return true;
+            flag = true;
         }
-        return false;
+        return flag;
     }
 
     @Override
