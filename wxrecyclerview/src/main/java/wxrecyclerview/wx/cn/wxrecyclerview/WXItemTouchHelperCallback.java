@@ -20,8 +20,8 @@ public class WXItemTouchHelperCallback extends ItemTouchHelper.Callback {
     @Override
     public int getMovementFlags(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder) {
         if (viewHolder instanceof WXViewHolder){
-            int dragFlags = ItemTouchHelper.UP | ItemTouchHelper.DOWN;
-            int swipeFlags = ItemTouchHelper.LEFT|ItemTouchHelper.RIGHT;
+            int dragFlags = ItemTouchHelper.ACTION_STATE_DRAG;
+            int swipeFlags = ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT;
             return makeMovementFlags(dragFlags,swipeFlags);
         }
         return 0;
@@ -30,10 +30,10 @@ public class WXItemTouchHelperCallback extends ItemTouchHelper.Callback {
 
     @Override
     public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder moveHolder, @NonNull RecyclerView.ViewHolder target) {
-        if (target instanceof WXViewHolder){
+        if ((((WXRecyclerView)recyclerView).state == WXRecyclerViewState.SWIPE) && (target instanceof WXViewHolder)){
             Collections.swap(wxRecyclerAdapter.getDatas(),moveHolder.getAdapterPosition(),target.getAdapterPosition());
             wxRecyclerAdapter.notifyDataSetChanged();
-            return false;
+            return true;
         }
         return false;
     }
