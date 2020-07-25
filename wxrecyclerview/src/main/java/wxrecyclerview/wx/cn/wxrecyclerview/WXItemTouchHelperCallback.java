@@ -32,13 +32,13 @@ public class WXItemTouchHelperCallback extends ItemTouchHelper.Callback {
 
     @Override
     public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder moveHolder, @NonNull RecyclerView.ViewHolder target) {
-        LogUtil.d("WXRecyclerView",TAG + "  state = "+((WXRecyclerView)recyclerView).state);
+        LogUtil.d(TAG,TAG + " onMove() state = "+((WXRecyclerView)recyclerView).state);
         boolean flag = false;
         if (((WXRecyclerView)recyclerView).state == WXRecyclerViewState.SWIPE){
             flag = false;
         }else if ((target instanceof WXViewHolder)){
             Collections.swap(wxRecyclerAdapter.getDatas(),moveHolder.getAdapterPosition(),target.getAdapterPosition());
-            wxRecyclerAdapter.notifyDataSetChanged();
+            wxRecyclerAdapter.notifyItemMoved(moveHolder.getAdapterPosition(),target.getAdapterPosition());
             flag = true;
         }
         return flag;
